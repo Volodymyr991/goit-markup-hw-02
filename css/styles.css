@@ -47,12 +47,16 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  /* color: #2e2f42; */
 }
 
 .nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
+}
+/* Address */
+.address-info {
+  font-style: normal;
 }
 
 .contact-link {
@@ -79,6 +83,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #ffffff;
 }
 
@@ -87,6 +92,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #ffffff;
+  letter-spacing: 0.04em;
   background-color: #4d5ae5;
 }
 
@@ -101,6 +107,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;
 }
 /* Title h3 */
@@ -120,6 +127,9 @@ body {
 }
 
 /* Our Team */
+.team-list-card {
+  background-color: #ffffff;
+}
 
 .our-team {
   background-color: #f4f4fd;
